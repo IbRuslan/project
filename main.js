@@ -36,5 +36,6 @@ const playGame = (minLimit, maxLimit, attsNumber, number, name) => {
     }
     alert(`${name}, гейм овер чувак...`)
 }
-
 playGame(min, max, attCount, randomNumber, userName)
+
+alert(`Приходи еще ${userName}`)
